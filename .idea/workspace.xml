@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cff40649-6992-44a4-8c40-902e32182dd0" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/cache-sync-def/target/" />
+    <ignored path="$PROJECT_DIR$/rocketmq-cache-sync/target/" />
+    <ignored path="$PROJECT_DIR$/zookeeper-cache-sync/target/" />
+    <ignored path="$PROJECT_DIR$/redis-cache-sync/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="RedisCacheSyncImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="106" column="32" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3683#4360#0" expanded="true" />
+                <element signature="e#4359#4360#0" expanded="true" />
+                <element signature="e#4392#4660#0" expanded="true" />
+                <element signature="e#4659#4660#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="180">
+                <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisCacheSyncTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#438#569#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RocketMqCacheSyncImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/main/java/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4166#4167#0" expanded="true" />
+                <element signature="e#4198#4199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RocketmqSyncTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/java/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#730#882#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rocktmq.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/resources/config/rocktmq.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZookeeperCacheSyncImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/src/main/java/com/andyyan/cache/sync/zookeeper/impl/ZookeeperCacheSyncImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZookeeperCacheSyncTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/src/test/java/com/andyyan/cache/sync/zookeeper/test/ZookeeperCacheSyncTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>redis</find>
+      <find>RedisCacheSyncImpl</find>
+      <find>zhipin</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cache-sync-def/pom.xml" />
+        <option value="$PROJECT_DIR$/cache-sync-def/src/main/java/com/andyyan/cache/sync/CacheSyncProperties.java" />
+        <option value="$PROJECT_DIR$/rocketmq-cache-sync/src/main/java/com/andyyan/cache/sync/rocketmq/serializer/DefaultSerializer.java" />
+        <option value="$PROJECT_DIR$/rocketmq-cache-sync/src/main/java/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer.java" />
+        <option value="$PROJECT_DIR$/rocketmq-cache-sync/src/test/resources/config/rocktmq.properties" />
+        <option value="$PROJECT_DIR$/rocketmq-cache-sync/src/test/resources/spring/cache-sync-mq-consumer.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-cache-sync/src/test/resources/spring/cache-sync-mq-producer.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-cache-sync/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java" />
+        <option value="$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java" />
+        <option value="$PROJECT_DIR$/rocketmq-cache-sync/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-cache-sync/src/main/java/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.java" />
+        <option value="$PROJECT_DIR$/rocketmq-cache-sync/src/test/java/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.java" />
+        <option value="$PROJECT_DIR$/zookeeper-cache-sync/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-cache-sync/src/main/java/com/andyyan/cache/sync/zookeeper/impl/ZookeeperCacheSyncImpl.java" />
+        <option value="$PROJECT_DIR$/zookeeper-cache-sync/src/test/java/com/andyyan/cache/sync/zookeeper/test/ZookeeperCacheSyncTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../tools/apache-maven-3.2.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="73" />
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-cache-sync" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-cache-sync" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="serializer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-cache-sync" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yan-cache-sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yan-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-cache-sync" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.andyyan.cache.sync.redis.impl" />
+      <recent name="com.andyyan.cache.sync.zookeeper.test" />
+      <recent name="com.andyyan.cache.sync.zookeeper.impl" />
+      <recent name="com.andyyan.cache.sync.rocketmq.test" />
+      <recent name="com.andyyan.cache.sync.rocketmq.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/rocketmq-cache-sync/src/test/resources" />
+      <recent name="$PROJECT_DIR$/cache-sync-def/src/main/java/com/andyyan/cache/sync" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.RocketmqSyncTest">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="RedisCacheSyncTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.andyyan.cache.sync.redis.test.RedisCacheSyncTest" />
+      <module name="redis-cache-sync" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.andyyan.cache.sync.redis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="RocketmqSyncTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.andyyan.cache.sync.rocketmq.test.RocketmqSyncTest" />
+      <module name="rocketmq-cache-sync" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.andyyan.cache.sync.rocketmq.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <list>
+      <item itemvalue="Application.RocketmqSyncTest" />
+      <item itemvalue="Application.RedisCacheSyncTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RocketmqSyncTest" />
+        <item itemvalue="Application.RedisCacheSyncTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cff40649-6992-44a4-8c40-902e32182dd0" name="Default" comment="" />
+      <created>1528992266352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528992266352</updated>
+      <workItem from="1528992268657" duration="5126000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5126000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32903227" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23015873" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/java/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cache-sync-def/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache-sync-def/src/main/java/com/andyyan/cache/sync/CacheSyncNotify.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache-sync-def/src/main/java/com/andyyan/cache/sync/CacheSync.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache-sync-def/src/main/java/com/andyyan/cache/sync/CacheSyncProperties.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://MAVEN/com.andyyan:rocketmq-cache-sync:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.andyyan:rocketmq-cache-sync:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="668.4678830227738" y="410.0">com.andyyan:rocketmq-cache-sync:1.0-SNAPSHOT</node>
+            <node x="1203.4678830227738" y="320.0">com.zhipin:cache-sync-def:jar:1.0-SNAPSHOT</node>
+            <node x="1240.7178830227738" y="240.0">com.zhipin:cache-sync-def:jar:1.0-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.5</node>
+            <node x="1150.7178830227738" y="80.0">com.zhipin:cache-sync-def:jar:1.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="692.9678830227738" y="320.0">net.sf.json-lib:json-lib:jar:jdk15:2.4</node>
+            <node x="671.5" y="80.0">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+            <node x="573.0" y="240.0">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="426.99999999999994" y="240.0">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-lang:commons-lang:jar:2.5</node>
+            <node x="664.3807453416148" y="0.0">net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="867.5" y="240.0">net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6</node>
+            <node x="848.5" y="160.0">net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6/commons-lang:commons-lang:jar:2.3</node>
+            <node x="1513.7178830227738" y="320.0">com.esotericsoftware:kryo:jar:4.0.0</node>
+            <node x="1601.7178830227738" y="240.0">com.esotericsoftware:kryo:jar:4.0.0/com.esotericsoftware:reflectasm:jar:1.11.3</node>
+            <node x="1621.2178830227738" y="160.0">com.esotericsoftware:kryo:jar:4.0.0/com.esotericsoftware:reflectasm:jar:1.11.3/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="1506.7178830227738" y="240.0">com.esotericsoftware:kryo:jar:4.0.0/com.esotericsoftware:minlog:jar:1.3.0</node>
+            <node x="1394.7178830227738" y="240.0">com.esotericsoftware:kryo:jar:4.0.0/org.objenesis:objenesis:jar:2.2</node>
+            <node x="1049.0" y="320.0">com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1</node>
+            <node x="995.5" y="240.0">com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-common:jar:3.5.8.1</node>
+            <node x="994.5" y="160.0">com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-common:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-remoting:jar:3.5.8.1</node>
+            <node x="1032.4678830227738" y="80.0">com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-common:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-remoting:jar:3.5.8.1/com.alibaba:fastjson:jar:1.2.12</node>
+            <node x="901.7892080745339" y="80.0">com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-common:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-remoting:jar:3.5.8.1/io.netty:netty-all:jar:4.0.36.Final</node>
+            <node x="289.99999999999994" y="160.0">org.springframework:spring-beans:jar:3.2.4.RELEASE</node>
+            <node x="158.46788302277378" y="320.0">org.springframework:spring-context:jar:3.2.4.RELEASE</node>
+            <node x="214.75" y="240.0">org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE</node>
+            <node x="167.0" y="160.0">org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="0.0" y="160.0">org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-expression:jar:3.2.4.RELEASE</node>
+            <node x="214.38074534161478" y="80.0">org.springframework:spring-core:jar:3.2.4.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-collections:commons-collections:jar:3.2.1">
+              <point x="-24.0" y="-15.0" />
+              <point x="728.9678830227738" y="290.0" />
+              <point x="656.0" y="290.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-common:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-remoting:jar:3.5.8.1" target="com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-common:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-remoting:jar:3.5.8.1/io.netty:netty-all:jar:4.0.36.Final">
+              <point x="-51.0" y="-15.0" />
+              <point x="1020.0" y="140.0" />
+              <point x="944.2892080745339" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6/commons-lang:commons-lang:jar:2.3">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/net.sf.ezmorph:ezmorph:jar:1.0.6">
+              <point x="48.0" y="-15.0" />
+              <point x="800.9678830227738" y="300.0" />
+              <point x="911.5" y="300.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.andyyan:rocketmq-cache-sync:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:3.2.4.RELEASE">
+              <point x="-72.42857142857144" y="-15.0" />
+              <point x="680.5393115942024" y="390.0" />
+              <point x="221.46788302277378" y="390.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-beans:jar:3.2.4.RELEASE" target="org.springframework:spring-core:jar:3.2.4.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="347.99999999999994" y="140.0" />
+              <point x="288.58074534161483" y="140.0" />
+              <point x="21.200000000000045" y="15.0" />
+            </edge>
+            <edge source="com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-common:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-remoting:jar:3.5.8.1" target="com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-common:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-remoting:jar:3.5.8.1/com.alibaba:fastjson:jar:1.2.12">
+              <point x="0.0" y="-15.0" />
+              <point x="1071.0" y="140.0" />
+              <point x="1074.4678830227738" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.4.RELEASE" target="org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE">
+              <point x="15.75" y="-15.0" />
+              <point x="237.21788302277378" y="290.0" />
+              <point x="265.75" y="290.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.andyyan:rocketmq-cache-sync:1.0-SNAPSHOT" target="com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1">
+              <point x="24.14285714285711" y="-15.0" />
+              <point x="777.1107401656309" y="370.0" />
+              <point x="1114.5" y="370.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.4.RELEASE" target="org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-expression:jar:3.2.4.RELEASE">
+              <point x="-47.25" y="-15.0" />
+              <point x="174.21788302277378" y="300.0" />
+              <point x="73.0" y="300.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-common:jar:3.5.8.1" target="com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-common:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-remoting:jar:3.5.8.1">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.esotericsoftware:kryo:jar:4.0.0" target="com.esotericsoftware:kryo:jar:4.0.0/com.esotericsoftware:minlog:jar:1.3.0">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.andyyan:rocketmq-cache-sync:1.0-SNAPSHOT" target="com.esotericsoftware:kryo:jar:4.0.0">
+              <point x="72.42857142857144" y="-15.0" />
+              <point x="825.3964544513453" y="390.0" />
+              <point x="1544.2178830227738" y="390.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.andyyan:rocketmq-cache-sync:1.0-SNAPSHOT" target="com.zhipin:cache-sync-def:jar:1.0-SNAPSHOT">
+              <point x="48.28571428571422" y="-15.0" />
+              <point x="801.253597308488" y="380.0" />
+              <point x="1268.9678830227738" y="380.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE" target="org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="-34.0" y="-15.0" />
+              <point x="231.75" y="215.0" />
+              <point x="218.0" y="215.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.esotericsoftware:kryo:jar:4.0.0" target="com.esotericsoftware:kryo:jar:4.0.0/org.objenesis:objenesis:jar:2.2">
+              <point x="-20.333333333333258" y="-15.0" />
+              <point x="1523.8845496894405" y="300.0" />
+              <point x="1440.7178830227738" y="300.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-common:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-remoting:jar:3.5.8.1" target="com.zhipin:cache-sync-def:jar:1.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="51.0" y="-15.0" />
+              <point x="1122.0" y="140.0" />
+              <point x="1164.7178830227738" y="140.0" />
+              <point x="-28.0" y="15.0" />
+            </edge>
+            <edge source="com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1" target="com.zhipin:cache-sync-def:jar:1.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="32.75" y="-15.0" />
+              <point x="1147.25" y="300.0" />
+              <point x="1169.9678830227738" y="300.0" />
+              <point x="1169.9678830227738" y="140.0" />
+              <point x="1192.7178830227738" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1" target="com.alibaba.rocketmq:rocketmq-client:jar:3.5.8.1/com.alibaba.rocketmq:rocketmq-common:jar:3.5.8.1">
+              <point x="-32.75" y="-15.0" />
+              <point x="1081.75" y="300.0" />
+              <point x="1071.0" y="300.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.zhipin:cache-sync-def:jar:1.0-SNAPSHOT" target="com.zhipin:cache-sync-def:jar:1.0-SNAPSHOT/org.apache.commons:commons-lang3:jar:3.5">
+              <point x="32.75" y="-15.0" />
+              <point x="1301.7178830227738" y="300.0" />
+              <point x="1307.7178830227738" y="300.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-lang:commons-lang:jar:2.5">
+              <point x="-48.0" y="-15.0" />
+              <point x="704.9678830227738" y="300.0" />
+              <point x="489.99999999999994" y="300.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE" target="org.springframework:spring-beans:jar:3.2.4.RELEASE">
+              <point x="34.0" y="-15.0" />
+              <point x="299.75" y="215.0" />
+              <point x="309.3333333333333" y="215.0" />
+              <point x="-38.66666666666663" y="15.0" />
+            </edge>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-logging:commons-logging:jar:1.1.1">
+              <point x="24.0" y="-15.0" />
+              <point x="776.9678830227738" y="290.0" />
+              <point x="838.0" y="290.0" />
+              <point x="838.0" y="55.0" />
+              <point x="786.0474120082814" y="55.0" />
+              <point x="48.66666666666663" y="15.0" />
+            </edge>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-logging:commons-logging:jar:1.1.1">
+              <point x="0.0" y="-15.0" />
+              <point x="749.5" y="55.0" />
+              <point x="737.3807453416148" y="55.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-core:jar:3.2.4.RELEASE" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-logging:commons-logging:jar:1.1.1">
+              <point x="0.0" y="-15.0" />
+              <point x="267.3807453416148" y="55.0" />
+              <point x="688.714078674948" y="55.0" />
+              <point x="-48.666666666666686" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-expression:jar:3.2.4.RELEASE" target="org.springframework:spring-core:jar:3.2.4.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="73.0" y="130.0" />
+              <point x="224.9807453416148" y="130.0" />
+              <point x="-42.39999999999998" y="15.0" />
+            </edge>
+            <edge source="com.esotericsoftware:kryo:jar:4.0.0/com.esotericsoftware:reflectasm:jar:1.11.3" target="com.esotericsoftware:kryo:jar:4.0.0/com.esotericsoftware:reflectasm:jar:1.11.3/org.ow2.asm:asm:jar:5.0.4">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.zhipin:cache-sync-def:jar:1.0-SNAPSHOT" target="com.zhipin:cache-sync-def:jar:1.0-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-32.75" y="-15.0" />
+              <point x="1236.2178830227738" y="300.0" />
+              <point x="1230.2178830227738" y="300.0" />
+              <point x="1230.2178830227738" y="140.0" />
+              <point x="1220.7178830227738" y="140.0" />
+              <point x="28.0" y="15.0" />
+            </edge>
+            <edge source="com.andyyan:rocketmq-cache-sync:1.0-SNAPSHOT" target="org.springframework:spring-beans:jar:3.2.4.RELEASE">
+              <point x="-48.285714285714334" y="-15.0" />
+              <point x="704.6821687370596" y="380.0" />
+              <point x="373.59862836438856" y="380.0" />
+              <point x="373.59862836438856" y="215.0" />
+              <point x="386.6666666666666" y="215.0" />
+              <point x="38.66666666666663" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.4.RELEASE" target="org.springframework:spring-core:jar:3.2.4.RELEASE">
+              <point x="-15.75" y="-15.0" />
+              <point x="205.71788302277378" y="290.0" />
+              <point x="156.5" y="290.0" />
+              <point x="156.5" y="140.0" />
+              <point x="246.18074534161474" y="140.0" />
+              <point x="-21.200000000000045" y="15.0" />
+            </edge>
+            <edge source="com.esotericsoftware:kryo:jar:4.0.0" target="com.esotericsoftware:kryo:jar:4.0.0/com.esotericsoftware:reflectasm:jar:1.11.3">
+              <point x="20.333333333333258" y="-15.0" />
+              <point x="1564.551216356107" y="300.0" />
+              <point x="1650.7178830227738" y="300.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.4.RELEASE/org.springframework:spring-aop:jar:3.2.4.RELEASE" target="org.springframework:spring-core:jar:3.2.4.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="265.75" y="215.0" />
+              <point x="279.49999999999994" y="215.0" />
+              <point x="279.49999999999994" y="140.0" />
+              <point x="267.3807453416148" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.andyyan:rocketmq-cache-sync:1.0-SNAPSHOT" target="net.sf.json-lib:json-lib:jar:jdk15:2.4">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.andyyan:rocketmq-cache-sync:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:3.2.4.RELEASE">
+              <point x="-24.142857142857224" y="-15.0" />
+              <point x="728.8250258799167" y="370.0" />
+              <point x="416.49999999999994" y="370.0" />
+              <point x="416.49999999999994" y="130.0" />
+              <point x="309.78074534161476" y="130.0" />
+              <point x="42.39999999999998" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.4.RELEASE" target="org.springframework:spring-beans:jar:3.2.4.RELEASE">
+              <point x="47.25" y="-15.0" />
+              <point x="268.7178830227738" y="300.0" />
+              <point x="361.55942028985476" y="300.0" />
+              <point x="361.55942028985476" y="215.0" />
+              <point x="347.99999999999994" y="215.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="net.sf.json-lib:json-lib:jar:jdk15:2.4" target="net.sf.json-lib:json-lib:jar:jdk15:2.4/commons-beanutils:commons-beanutils:jar:1.8.0">
+              <point x="0.0" y="-15.0" />
+              <point x="752.9678830227738" y="300.0" />
+              <point x="749.5" y="300.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7346084877465631" x="326.7046379170057" y="-48.85069161920262" />
+          <SelectedNodes>
+            <node>com.andyyan:rocketmq-cache-sync:1.0-SNAPSHOT</node>
+            <node>org.springframework:spring-core:jar:3.2.4.RELEASE</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/main/java/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="52" />
+          <folding>
+            <element signature="e#659#1051#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/resources/spring/cache-sync-mq-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#708#750#0" expanded="true" />
+            <element signature="e#811#847#0" expanded="true" />
+            <element signature="e#1006#1042#0" expanded="true" />
+            <element signature="e#1093#1130#0" expanded="true" />
+            <element signature="e#1176#1202#0" expanded="true" />
+            <element signature="e#1249#1277#0" expanded="true" />
+            <element signature="e#1436#1467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/resources/spring/cache-sync-mq-producer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-cache-sync/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/zhipin/cache-sync-def/1.0-SNAPSHOT/cache-sync-def-1.0-SNAPSHOT.jar!/com/zhipin/cache/sync/AbstractCacheSync.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/HostAndPort.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/JedisPubSub.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache-sync-def/src/main/java/com/andyyan/cache/sync/AbstractCacheSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="991" column="16" selection-start-line="991" selection-start-column="16" selection-end-line="991" selection-end-column="16" />
+          <folding>
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="106" column="32" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3683#4360#0" expanded="true" />
+            <element signature="e#4359#4360#0" expanded="true" />
+            <element signature="e#4392#4660#0" expanded="true" />
+            <element signature="e#4659#4660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/main/java/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#4198#4199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/src/main/java/com/andyyan/cache/sync/zookeeper/impl/ZookeeperCacheSyncImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/src/test/java/com/andyyan/cache/sync/zookeeper/test/ZookeeperCacheSyncTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#569#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/java/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#730#882#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/resources/config/rocktmq.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7.10 (/usr/bin/python) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

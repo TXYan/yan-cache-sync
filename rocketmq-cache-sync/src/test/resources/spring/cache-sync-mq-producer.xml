@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+
+    <bean id="cacheSyncMqProducer" class="com.alibaba.rocketmq.client.producer.DefaultMQProducer">
+        <constructor-arg index="0" value="${cache.sync.producer.group:YAN_CACHE_SYNC_P}"/>
+        <property name="namesrvAddr" value="${cache.sync.nameServer}"/>
+        <property name="instanceName" value="${cache.sync.instanceName}"/>
+        <property name="defaultTopicQueueNums" value="${cache.sync.producer.queueNum:4}"/>
+        <property name="retryAnotherBrokerWhenNotStoreOK" value="true"/>
+        <property name="retryTimesWhenSendFailed" value="${cache.sync.producer.retryTimes:2}"/>
+    </bean>
+
+</beans>

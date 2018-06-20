@@ -1,7 +1,7 @@
 ## 缓存实时通知机制
 项目中很多地方使用到了内存缓存，在集群环境中，数据变更后会导致机器数据不一致问题，此项目就是为了解决此问题,达到实时更新的目的，避免因数据不一致导致莫名奇妙的问题，另外还大大减小了QA测试等待时间，提高测试效率。
 目前提供了rocketmq机制和zookeeper机制，还可以扩展redis机制，以及其他
-rocketmq、redis可以使用 zookeeper在并发情况会丢消息
+rocketmq、redis可以使用  zookeeper在并发情况会丢消息
 
 ### rocket mq 参数说明
 - 共用
@@ -58,3 +58,6 @@ cacheSync.subscribe(server, key, new CacheSyncNotify() {
 
 4、发布更新事件
 cacheSync.publish(server, key, data);
+
+### 生产环境使用
+- 目前公司生产环境已使用

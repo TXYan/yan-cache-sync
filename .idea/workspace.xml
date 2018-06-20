@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cff40649-6992-44a4-8c40-902e32182dd0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache-sync-def/target/cache-sync-def-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cache-sync-def/target/cache-sync-def-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache-sync-def/target/classes/com/andyyan/cache/sync/AbstractCacheSync.class" beforeDir="false" afterPath="$PROJECT_DIR$/cache-sync-def/target/classes/com/andyyan/cache/sync/AbstractCacheSync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache-sync-def/target/classes/com/andyyan/cache/sync/CacheSyncProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/cache-sync-def/target/classes/com/andyyan/cache/sync/CacheSyncProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache-sync-def/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cache-sync-def/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache-sync-def/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cache-sync-def/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache-sync-def/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cache-sync-def/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-cache-sync/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-cache-sync/target/classes/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/target/classes/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-cache-sync/target/classes/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/target/classes/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-cache-sync/target/classes/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/target/classes/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-cache-sync/target/test-classes/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/target/test-classes/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-cache-sync/target/test-classes/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/target/test-classes/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageDecodeByteArr2MapCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageDecodeByteArr2MapCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageDecodeByteArr2StringCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageDecodeByteArr2StringCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageEncodeMap2ByteArrCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageEncodeMap2ByteArrCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageEncodeString2ByteArrCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageEncodeString2ByteArrCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/rocketmq-cache-sync-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/rocketmq-cache-sync-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/surefire-reports/TEST-com.andyyan.cache.sync.rocketmq.test.RocketmqSyncTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/surefire-reports/TEST-com.andyyan.cache.sync.rocketmq.test.RocketmqSyncTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/test-classes/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/test-classes/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/test-classes/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/test-classes/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="cff40649-6992-44a4-8c40-902e32182dd0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cache-sync-def/target/" />
@@ -52,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="465">
+                <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="RedisCacheSyncImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
+            <state relative-caret-position="494">
+              <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1563#2240#0" expanded="true" />
@@ -68,11 +45,42 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Jedis.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="1030" column="16" selection-start-line="1030" selection-start-column="16" selection-end-line="1030" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="JedisPubSub.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPubSub.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="182">
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Client.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="716" column="16" selection-start-line="716" selection-start-column="16" selection-end-line="716" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryClient.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/BinaryClient.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="561" column="16" selection-start-line="561" selection-start-column="16" selection-end-line="561" selection-end-column="16" />
+              <folding>
+                <element signature="e#17873#17874#0" expanded="true" />
+                <element signature="e#17926#17927#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,57 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseObjectPoolConfig.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar!/org/apache/commons/pool2/impl/BaseObjectPoolConfig.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
-              <folding>
-                <element signature="e#2600#2601#0" expanded="true" />
-                <element signature="e#2650#2651#0" expanded="true" />
-                <element signature="e#3759#3760#0" expanded="true" />
-                <element signature="e#3807#3808#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JedisCluster.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/JedisCluster.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-              <folding>
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryJedisCluster.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/BinaryJedisCluster.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JedisSlotBasedConnectionHandler.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/JedisSlotBasedConnectionHandler.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RedisCacheSyncTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#717#733#0" expanded="true" />
@@ -205,12 +167,12 @@
         <option value="$PROJECT_DIR$/zookeeper-cache-sync/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper-cache-sync/src/main/java/com/andyyan/cache/sync/zookeeper/impl/ZookeeperCacheSyncImpl.java" />
         <option value="$PROJECT_DIR$/zookeeper-cache-sync/src/test/java/com/andyyan/cache/sync/zookeeper/test/ZookeeperCacheSyncTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/CacheSyncRedisPubSub.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/redis-cache-sync/pom.xml" />
         <option value="$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java" />
         <option value="$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -690,16 +652,15 @@
       <option name="presentableId" value="Default" />
       <updated>1528992266352</updated>
       <workItem from="1528992268657" duration="5543000" />
-      <workItem from="1529504901600" duration="5194000" />
+      <workItem from="1529504901600" duration="5608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10737000" />
+    <option name="totallyTimeSpent" value="11151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -710,10 +671,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32903227" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32903227" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23260073" />
@@ -1211,16 +1172,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/main/java/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -1338,17 +1289,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="1030" column="16" selection-start-line="1030" selection-start-column="16" selection-end-line="1030" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/BinaryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="561" column="16" selection-start-line="561" selection-start-column="16" selection-end-line="561" selection-end-column="16" />
+          <folding>
+            <element signature="e#17873#17874#0" expanded="true" />
+            <element signature="e#17926#17927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Client.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="716" column="16" selection-start-line="716" selection-start-column="16" selection-end-line="716" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPubSub.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="182">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#717#733#0" expanded="true" />
@@ -1360,10 +1336,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="465">
+            <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
+        <state relative-caret-position="494">
+          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1563#2240#0" expanded="true" />

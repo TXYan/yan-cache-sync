@@ -5,10 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import redis.clients.jedis.HostAndPort;
-import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisCluster;
-import redis.clients.jedis.JedisPubSub;
+import redis.clients.jedis.*;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -29,30 +26,36 @@ public class RedisCacheSyncImpl extends AbstractCacheSync {
     private static final String HOST_PORT_SPIT = ":";
     private static final String KEY_DATA_SPIT = ":";
 
-    private JedisCluster jedisCluster;
-    private Jedis jedis;
+    private Jedis subJedis;
+    JedisPubSub pubSub;
     private String channel;
+    JedisPool jedisPool;
 
     private ExecutorService fixPool = new ThreadPoolExecutor(1, 1, 1, TimeUnit.DAYS, new ArrayBlockingQueue<Runnable>(1));
 
-    public RedisCacheSyncImpl(String host, int port, int timeout, String channel) {
+    public RedisCacheSyncImpl(String host, int port, int toal, int timeout, String channel) {
         this.channel = channel;
+        JedisPoolConfig config = new JedisPoolConfig();
+        config.setMaxTotal(toal);
+        config.setTestOnBorrow(true);
+        jedisPool = new JedisPool(config, host, port, timeout);
+        subJedis = jedisPool.getResource();
 
-        HostAndPort hostAndPort = new HostAndPort(host, port);
-        try {
-            jedisCluster = new JedisCluster(hostAndPort, timeout);
-        } catch (Exception e) {
-            jedis = new Jedis(host, port, timeout);
-        }
+        pubSub = new JedisPubSub() {
+            @Override
+            public void onMessage(String channel, String message) {
+                log.debug("RedisCacheSyncImpl.onMessage(" + "channel = " + channel + ", message = " + message + ")");
+                int idx = message.indexOf(KEY_DATA_SPIT);
+                if (idx < 0) {
+                    log.warn("RedisCacheSyncImpl.onMessage(" + "channel = " + channel + ", message = " + message + "), ignore");
+                    return;
+                }
+                String key = message.substring(0, idx);
+                String data = message.substring(idx + 1);
+                syncNotify(channel, key, data);
+            }
+        };
 
-        subscribeChannel(channel);
-    }
-
-    public RedisCacheSyncImpl(String hostsAndPorts, int timeout, String channel) {
-        this.channel = channel;
-
-        Set<HostAndPort> hostAndPortSet = generateHostAndPortSet(hostsAndPorts);
-        jedisCluster = new JedisCluster(hostAndPortSet, timeout);
         subscribeChannel(channel);
     }
 
@@ -88,14 +91,16 @@ public class RedisCacheSyncImpl extends AbstractCacheSync {
     }
 
     public void publish(String serverName, String key, String data) {
+        Jedis pubJedis = null;
         try {
-            if (jedisCluster != null) {
-                jedisCluster.publish(channel, key + KEY_DATA_SPIT + data);
-            } else {
-                jedis.publish(channel, key + KEY_DATA_SPIT + data);
-            }
+            pubJedis = jedisPool.getResource();
+            pubJedis.publish(channel, key + KEY_DATA_SPIT + data);
         } catch (Exception e) {
             log.error("RedisCacheSyncImpl.publish(" + "key = " + key + ", data = " + data + ")", e);
+        } finally {
+            if (pubJedis != null) {
+                jedisPool.returnResource(pubJedis);
+            }
         }
     }
 
@@ -104,27 +109,10 @@ public class RedisCacheSyncImpl extends AbstractCacheSync {
     }
 
     private void subscribeChannel(final String channel) {
-        final JedisPubSub pubSub = new JedisPubSub() {
-            @Override
-            public void onMessage(String channel, String message) {
-                log.debug("RedisCacheSyncImpl.onMessage(" + "channel = " + channel + ", message = " + message + ")");
-                int idx = message.indexOf(KEY_DATA_SPIT);
-                if (idx < 0) {
-                    log.warn("RedisCacheSyncImpl.onMessage(" + "channel = " + channel + ", message = " + message + "), ignore");
-                    return;
-                }
-                String key = message.substring(0, idx);
-                String data = message.substring(idx + 1);
-                syncNotify(channel, key, data);
-            }
-        };
+
         fixPool.execute(new Runnable() {
             public void run() {
-                if (jedisCluster != null) {
-                    jedisCluster.subscribe(pubSub, channel);
-                } else {
-                    jedis.subscribe(pubSub, channel);
-                }
+                subJedis.subscribe(pubSub, channel);
             }
         });
     }
@@ -133,12 +121,13 @@ public class RedisCacheSyncImpl extends AbstractCacheSync {
     public void destroy() {
         try {
             super.destroy();
-            if (jedisCluster != null) {
-                jedisCluster.close();
+            if (subJedis != null) {
+                pubSub.unsubscribe(channel);
+                jedisPool.returnResource(subJedis);
             }
-            if (jedis != null) {
-                jedis.close();
-            }
+
+            jedisPool.destroy();
+            fixPool.shutdown();
         } catch (Exception e) {
             log.error("RedisCacheSyncImpl.destroy()", e);
         }

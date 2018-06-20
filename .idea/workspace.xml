@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cff40649-6992-44a4-8c40-902e32182dd0" name="Default" comment="" />
+    <list default="true" id="cff40649-6992-44a4-8c40-902e32182dd0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache-sync-def/target/cache-sync-def-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cache-sync-def/target/cache-sync-def-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache-sync-def/target/classes/com/andyyan/cache/sync/AbstractCacheSync.class" beforeDir="false" afterPath="$PROJECT_DIR$/cache-sync-def/target/classes/com/andyyan/cache/sync/AbstractCacheSync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache-sync-def/target/classes/com/andyyan/cache/sync/CacheSyncProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/cache-sync-def/target/classes/com/andyyan/cache/sync/CacheSyncProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache-sync-def/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cache-sync-def/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache-sync-def/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cache-sync-def/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache-sync-def/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cache-sync-def/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-cache-sync/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-cache-sync/target/classes/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/target/classes/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-cache-sync/target/classes/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/target/classes/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-cache-sync/target/classes/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/target/classes/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-cache-sync/target/test-classes/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/target/test-classes/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-cache-sync/target/test-classes/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-cache-sync/target/test-classes/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageDecodeByteArr2MapCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageDecodeByteArr2MapCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageDecodeByteArr2StringCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageDecodeByteArr2StringCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageEncodeMap2ByteArrCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageEncodeMap2ByteArrCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageEncodeString2ByteArrCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer$MessageEncodeString2ByteArrCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/classes/com/andyyan/cache/sync/rocketmq/serializer/KryoSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/rocketmq-cache-sync-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/rocketmq-cache-sync-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/surefire-reports/TEST-com.andyyan.cache.sync.rocketmq.test.RocketmqSyncTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/surefire-reports/TEST-com.andyyan.cache.sync.rocketmq.test.RocketmqSyncTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/test-classes/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/test-classes/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rocketmq-cache-sync/target/test-classes/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/rocketmq-cache-sync/target/test-classes/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cache-sync-def/target/" />
@@ -16,40 +51,101 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="RedisCacheSyncImpl.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RedisCacheSyncImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="106" column="32" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="32" />
+            <state relative-caret-position="191">
+              <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3683#4360#0" expanded="true" />
-                <element signature="e#4359#4360#0" expanded="true" />
-                <element signature="e#4392#4660#0" expanded="true" />
-                <element signature="e#4659#4660#0" expanded="true" />
+                <element signature="e#1563#2240#0" expanded="true" />
+                <element signature="e#2239#2240#0" expanded="true" />
+                <element signature="e#4021#4146#0" expanded="true" />
+                <element signature="e#4145#4146#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="JedisPubSub.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPubSub.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractCacheSync.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cache-sync-def/src/main/java/com/andyyan/cache/sync/AbstractCacheSync.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="392">
+              <caret line="117" column="12" selection-start-line="117" selection-start-column="12" selection-end-line="121" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redis-cache-sync/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseObjectPoolConfig.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar!/org/apache/commons/pool2/impl/BaseObjectPoolConfig.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+              <folding>
+                <element signature="e#2600#2601#0" expanded="true" />
+                <element signature="e#2650#2651#0" expanded="true" />
+                <element signature="e#3759#3760#0" expanded="true" />
+                <element signature="e#3807#3808#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisCluster.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/JedisCluster.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding>
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryJedisCluster.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/BinaryJedisCluster.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisSlotBasedConnectionHandler.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/JedisSlotBasedConnectionHandler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -57,83 +153,15 @@
       <file leaf-file-name="RedisCacheSyncTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="470">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#438#569#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RocketMqCacheSyncImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/main/java/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4166#4167#0" expanded="true" />
-                <element signature="e#4198#4199#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RocketmqSyncTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/java/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#730#882#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rocktmq.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/resources/config/rocktmq.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="42" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZookeeperCacheSyncImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/src/main/java/com/andyyan/cache/sync/zookeeper/impl/ZookeeperCacheSyncImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZookeeperCacheSyncTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/src/test/java/com/andyyan/cache/sync/zookeeper/test/ZookeeperCacheSyncTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#717#733#0" expanded="true" />
+                <element signature="e#831#986#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1155#1387#0" expanded="true" />
+                <element signature="e#1386#1387#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,10 +199,6 @@
         <option value="$PROJECT_DIR$/rocketmq-cache-sync/src/test/resources/config/rocktmq.properties" />
         <option value="$PROJECT_DIR$/rocketmq-cache-sync/src/test/resources/spring/cache-sync-mq-consumer.xml" />
         <option value="$PROJECT_DIR$/rocketmq-cache-sync/src/test/resources/spring/cache-sync-mq-producer.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/redis-cache-sync/pom.xml" />
-        <option value="$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java" />
-        <option value="$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java" />
         <option value="$PROJECT_DIR$/rocketmq-cache-sync/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-cache-sync/src/main/java/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.java" />
         <option value="$PROJECT_DIR$/rocketmq-cache-sync/src/test/java/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.java" />
@@ -182,6 +206,11 @@
         <option value="$PROJECT_DIR$/zookeeper-cache-sync/src/main/java/com/andyyan/cache/sync/zookeeper/impl/ZookeeperCacheSyncImpl.java" />
         <option value="$PROJECT_DIR$/zookeeper-cache-sync/src/test/java/com/andyyan/cache/sync/zookeeper/test/ZookeeperCacheSyncTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/CacheSyncRedisPubSub.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-cache-sync/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java" />
+        <option value="$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java" />
       </list>
     </option>
   </component>
@@ -203,8 +232,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="73" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -274,15 +302,15 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -517,6 +545,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -555,14 +585,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RocketmqSyncTest">
+  <component name="RunManager" selected="Application.RedisCacheSyncTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="RedisCacheSyncTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.andyyan.cache.sync.redis.test.RedisCacheSyncTest" />
       <module name="redis-cache-sync" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-Xmx1G -Xmn128M" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.andyyan.cache.sync.redis.test.*" />
@@ -643,8 +674,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RocketmqSyncTest" />
         <item itemvalue="Application.RedisCacheSyncTest" />
+        <item itemvalue="Application.RocketmqSyncTest" />
       </list>
     </recent_temporary>
   </component>
@@ -658,45 +689,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528992266352</updated>
-      <workItem from="1528992268657" duration="5347000" />
+      <workItem from="1528992268657" duration="5543000" />
+      <workItem from="1529504901600" duration="5194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5347000" />
+    <option name="totallyTimeSpent" value="10737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Spring" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32903227" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23015873" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32903227" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32903227" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23260073" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -710,42 +743,120 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/java/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.java</url>
-          <line>18</line>
+          <line>21</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/java/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java</url>
-          <line>13</line>
+          <line>25</line>
           <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java</url>
-          <line>109</line>
-          <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#717#733#0" expanded="true" />
+            <element signature="e#831#986#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1155#1387#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/main/java/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/java/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/resources/config/rocktmq.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/src/main/java/com/andyyan/cache/sync/zookeeper/impl/ZookeeperCacheSyncImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/src/test/java/com/andyyan/cache/sync/zookeeper/test/ZookeeperCacheSyncTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cache-sync-def/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache-sync-def/src/main/java/com/andyyan/cache/sync/CacheSyncNotify.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache-sync-def/src/main/java/com/andyyan/cache/sync/CacheSync.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache-sync-def/src/main/java/com/andyyan/cache/sync/CacheSyncProperties.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="uml://MAVEN/com.andyyan:rocketmq-cache-sync:1.0-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -1006,12 +1117,13 @@
               <point x="0.0" y="15.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.7346084877465631" x="326.7046379170057" y="-48.85069161920262" />
+          <settings layout="Hierarchic Group" zoom="0.7346084877465631" x="327.0" y="-49.0" />
           <SelectedNodes>
             <node>com.andyyan:rocketmq-cache-sync:1.0-SNAPSHOT</node>
             <node>org.springframework:spring-core:jar:3.2.4.RELEASE</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
@@ -1050,20 +1162,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis-cache-sync/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/zhipin/cache-sync-def/1.0-SNAPSHOT/cache-sync-def-1.0-SNAPSHOT.jar!/com/zhipin/cache/sync/AbstractCacheSync.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1078,61 +1176,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/JedisPubSub.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache-sync-def/src/main/java/com/andyyan/cache/sync/AbstractCacheSync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/Jedis.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="991" column="16" selection-start-line="991" selection-start-column="16" selection-end-line="991" selection-end-column="16" />
-          <folding>
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="106" column="32" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3683#4360#0" expanded="true" />
-            <element signature="e#4359#4360#0" expanded="true" />
-            <element signature="e#4392#4660#0" expanded="true" />
-            <element signature="e#4659#4660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/main/java/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
-            <element signature="e#4198#4199#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1145,7 +1192,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/src/main/java/com/andyyan/cache/sync/zookeeper/impl/ZookeeperCacheSyncImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="645">
           <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1155,7 +1202,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/src/test/java/com/andyyan/cache/sync/zookeeper/test/ZookeeperCacheSyncTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="180">
           <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1164,26 +1211,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/main/java/com/andyyan/cache/sync/rocketmq/impl/RocketMqCacheSyncImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="166">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#438#569#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rocketmq-cache-sync/src/test/java/com/andyyan/cache/sync/rocketmq/test/RocketmqSyncTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="225">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#730#882#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1195,19 +1248,159 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="1002" column="16" selection-start-line="1002" selection-start-column="16" selection-end-line="1002" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/CacheSyncRedisPubSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/JedisPubSub.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/JedisClusterConnectionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/JedisSlotBasedConnectionHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/JedisCluster.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.8.1/jedis-2.8.1.jar!/redis/clients/jedis/BinaryJedisCluster.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar!/org/apache/commons/pool2/impl/BaseObjectPoolConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+          <folding>
+            <element signature="e#2600#2601#0" expanded="true" />
+            <element signature="e#2650#2651#0" expanded="true" />
+            <element signature="e#3759#3760#0" expanded="true" />
+            <element signature="e#3807#3808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="117" column="12" selection-start-line="117" selection-start-column="12" selection-end-line="121" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-cache-sync/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache-sync-def/src/main/java/com/andyyan/cache/sync/AbstractCacheSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPubSub.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/test/java/com/andyyan/cache/sync/redis/test/RedisCacheSyncTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#717#733#0" expanded="true" />
+            <element signature="e#831#986#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1155#1387#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-cache-sync/src/main/java/com/andyyan/cache/sync/redis/impl/RedisCacheSyncImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1563#2240#0" expanded="true" />
+            <element signature="e#2239#2240#0" expanded="true" />
+            <element signature="e#4021#4146#0" expanded="true" />
+            <element signature="e#4145#4146#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <last-edited>Python 2.7.10 (/usr/bin/python) interpreter library</last-edited>
@@ -1232,8 +1425,22 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cache-sync-def</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

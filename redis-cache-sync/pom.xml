@@ -22,6 +22,11 @@
             <artifactId>jedis</artifactId>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.taobao</groupId>
+            <artifactId>stresstester</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>

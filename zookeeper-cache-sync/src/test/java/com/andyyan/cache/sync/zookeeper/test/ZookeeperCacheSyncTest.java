@@ -11,16 +11,16 @@ public class ZookeeperCacheSyncTest {
 
     public static void main(String[] args) throws InterruptedException {
         String serverName = "yan-test";
-        final AbstractCacheSync cacheSync = new ZookeeperCacheSyncImpl("192.168.1.11:2181,192.168.1.11:2181", 3000, "/andyyan");
+        final AbstractCacheSync cacheSync = new ZookeeperCacheSyncImpl("127.0.0.1:2181", 3000, "/andyyan", 50);
         cacheSync.subscribe(serverName, "lc-test", new CacheSyncNotify() {
             public void notify(String data) {
                 System.out.println("i receive data:" + data);
             }
         });
-        cacheSync.publish(serverName, "lc-test", "repeat");
-        cacheSync.publish(serverName, "lc-test", "repeat1");
-        cacheSync.publish(serverName, "lc-test", "repeat2");
-        cacheSync.publish(serverName, "lc-test", "repeat3");
-        Thread.sleep(3000L);
+        //并发或者过快会导致丢信息 对同一个数据修改并不会这么快，20%的数据丢失
+        for (int i = 0; i < 10000; i++) {
+            cacheSync.publish(serverName, "lc-test", "repeat:" + i);
+        }
+        Thread.sleep(60000L);
     }
 }

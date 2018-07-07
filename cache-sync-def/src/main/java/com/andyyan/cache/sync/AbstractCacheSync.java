@@ -45,12 +45,12 @@ public abstract class AbstractCacheSync implements CacheSync {
         if (serverName == null || key == null) {
             return;
         }
-        log.info("AbstractCacheSync.syncNotify(" + "serverName = " + serverName + ", key = " + key + ", data = " + data + ")");
+        log.debug("AbstractCacheSync.syncNotify(" + "serverName = " + serverName + ", key = " + key + ", data = " + data + ")");
         try {
             String syncKey = getSyncKey(serverName, key);
             CacheSyncNotify syncNotify = syncNotifyMap.get(syncKey);
             if (syncNotify == null) {
-                log.info("AbstractCacheSync.syncNotify(" + "serverName = " + serverName + ", key = " + key + ", data = " + data + "), no notifier");
+                log.debug("AbstractCacheSync.syncNotify(" + "serverName = " + serverName + ", key = " + key + ", data = " + data + "), no notifier");
                 return;
             }
 

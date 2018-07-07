@@ -19,7 +19,6 @@
 
     <bean id="rocketMqCacheSyncImpl1" class="com.andyyan.cache.sync.rocketmq.impl.RocketMqCacheSyncImpl">
         <property name="topic" value="${cache.sync.topic:YAN_CACHE_SYNC}"/>
-        <property name="tags" value="yan-test"/>
         <property name="defaultMQProducer" ref="cacheSyncMqProducer"/>
         <property name="defaultMQConsumer" ref="cacheSyncMqConsumer"/>
     </bean>

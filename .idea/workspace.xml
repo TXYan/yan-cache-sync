@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff40649-6992-44a4-8c40-902e32182dd0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-cache-sync/src/main/java/com/andyyan/cache/sync/zookeeper/impl/ZookeeperCacheSyncImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-cache-sync/src/main/java/com/andyyan/cache/sync/zookeeper/impl/ZookeeperCacheSyncImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zookeeper-cache-sync/src/test/java/com/andyyan/cache/sync/zookeeper/test/ZookeeperCacheSyncTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-cache-sync/src/test/java/com/andyyan/cache/sync/zookeeper/test/ZookeeperCacheSyncTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,8 +34,8 @@
       <file leaf-file-name="ZookeeperCacheSyncTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/src/test/java/com/andyyan/cache/sync/zookeeper/test/ZookeeperCacheSyncTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="72" lean-forward="true" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#588#743#0" expanded="true" />
@@ -668,16 +666,15 @@
       <updated>1528992266352</updated>
       <workItem from="1528992268657" duration="5543000" />
       <workItem from="1529504901600" duration="5864000" />
-      <workItem from="1529590485164" duration="4592000" />
+      <workItem from="1529590485164" duration="5069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15999000" />
+    <option name="totallyTimeSpent" value="16476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -688,7 +685,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32903227" />
@@ -1404,8 +1401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zookeeper-cache-sync/src/test/java/com/andyyan/cache/sync/zookeeper/test/ZookeeperCacheSyncTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="72" lean-forward="true" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#588#743#0" expanded="true" />

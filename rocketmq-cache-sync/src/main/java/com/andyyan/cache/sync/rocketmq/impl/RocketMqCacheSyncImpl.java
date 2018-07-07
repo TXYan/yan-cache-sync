@@ -14,8 +14,10 @@ import com.alibaba.rocketmq.common.message.Message;
 import com.alibaba.rocketmq.common.message.MessageExt;
 import com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel;
 import com.andyyan.cache.sync.AbstractCacheSync;
+import com.andyyan.cache.sync.CacheSyncNotify;
 import com.andyyan.cache.sync.CacheSyncProperties;
 import com.andyyan.cache.sync.rocketmq.serializer.KryoSerializer;
+import io.netty.util.internal.ConcurrentSet;
 import net.sf.json.JSONObject;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -35,7 +37,9 @@ public class RocketMqCacheSyncImpl extends AbstractCacheSync {
 
     private DefaultMQProducer defaultMQProducer;
     private String topic;
-    private String tags;//订阅的tag列表 *代表所有，多个格式如下：tag1||tag2||tag3
+    private ConcurrentSet<String> tagSet = new ConcurrentSet<>();
+
+//    private String tags;//订阅的tag列表 *代表所有，多个格式如下：tag1||tag2||tag3
 
     private DefaultMQPushConsumer defaultMQConsumer;
 
@@ -76,6 +80,32 @@ public class RocketMqCacheSyncImpl extends AbstractCacheSync {
         }
     }
 
+    @Override
+    public void subscribe(String serverName, String key, CacheSyncNotify localNotify) {
+        try {
+            super.subscribe(serverName, key, localNotify);
+            if (tagSet.add(serverName)) {
+                defaultMQConsumer.subscribe(topic, StringUtils.join(tagSet, "||"));
+            }
+        } catch(Exception e) {
+            log.error("RocketMqCacheSyncImpl.subscribe(" + "serverName = " + serverName + ", key = " + key + ", localNotify = " + localNotify + ")", e);
+        }
+    }
+
+    @Override
+    public void unsubscribe(String serverName, String key) {
+        try {
+            if (!tagSet.remove(serverName)) {
+                return;
+            }
+            defaultMQConsumer.subscribe(topic, StringUtils.join(tagSet, "||"));
+            super.unsubscribe(serverName, key);
+        } catch(Exception e) {
+            log.error("RocketMqCacheSyncImpl.unsubscribe(" + "serverName = " + serverName + ", key = " + key + ")", e);
+        }
+        super.unsubscribe(serverName, key);
+    }
+
     private String dataJson(String key, String data) {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put(CacheSyncProperties.BIZ_KEY.getDesc(), key);
@@ -96,17 +126,9 @@ public class RocketMqCacheSyncImpl extends AbstractCacheSync {
         this.topic = topic;
     }
 
-    public void setTags(String tags) {
-        this.tags = tags;
-    }
-
     public void setDefaultMQConsumer(DefaultMQPushConsumer defaultMQConsumer) {
         this.defaultMQConsumer = defaultMQConsumer;
         try {
-            if (StringUtils.isBlank(tags)) {
-                tags = "*";
-            }
-            defaultMQConsumer.subscribe(topic, tags);
             defaultMQConsumer.registerMessageListener(new MessageListenerConcurrently() {
                 public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> list, ConsumeConcurrentlyContext consumeConcurrentlyContext) {
                     if (CollectionUtils.isEmpty(list))  {
@@ -120,9 +142,6 @@ public class RocketMqCacheSyncImpl extends AbstractCacheSync {
             });
             defaultMQConsumer.setMessageModel(MessageModel.BROADCASTING);
             defaultMQConsumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_LAST_OFFSET);
-            //不好使  理解错了？
-//            defaultMQConsumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_TIMESTAMP);
-//            defaultMQConsumer.setConsumeTimestamp(UtilAll.timeMillisToHumanString3(System.currentTimeMillis()));
             defaultMQConsumer.start();
         } catch (Exception e) {
             log.error("RocketMqCacheSyncImpl1.setDefaultMQConsumer(" + "defaultMQConsumer = " + defaultMQConsumer + ")", e);

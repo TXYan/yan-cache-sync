@@ -11,16 +11,16 @@ public class ZookeeperCacheSyncTest {
 
     public static void main(String[] args) throws InterruptedException {
         String serverName = "yan-test";
-        final AbstractCacheSync cacheSync = new ZookeeperCacheSyncImpl("127.0.0.1:2181", 3000, "/andyyan", 50);
+        final AbstractCacheSync cacheSync = new ZookeeperCacheSyncImpl("127.0.0.1:2181", 3000, "/andyyan", 20);
         cacheSync.subscribe(serverName, "lc-test", new CacheSyncNotify() {
             public void notify(String data) {
                 System.out.println("i receive data:" + data);
             }
         });
-        //并发或者过快会导致丢信息 对同一个数据修改并不会这么快，20%的数据丢失
+        //并发或者过快会导致丢信息 对同一个数据修改并不会这么快，20%的数据丢失，经过试验设置20个时丢失12% 相对少些
         for (int i = 0; i < 10000; i++) {
             cacheSync.publish(serverName, "lc-test", "repeat:" + i);
         }
-        Thread.sleep(60000L);
+        Thread.sleep(1000L);
     }
 }
